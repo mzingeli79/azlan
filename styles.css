@@ -1,0 +1,44 @@
+.nav-heading {
+  font-size: 1.5em;
+}
+.navbar {
+  background-color: #332f2e;
+  color: #e3dad8;
+}
+
+.nav-link {
+  text-transform: capitalize;
+}
+
+.dark {
+  background-color: #332f2e;
+  color: #e3dad8;
+  padding: 20px;
+  opacity: 0.9;
+}
+
+.light {
+  padding: 20px;
+}
+#hero-section {
+  background-image: url("images/music.jpg");
+  padding: 20px;
+  height: 100vh;
+  color: #e3dad8;
+}
+.col-content{
+  position: absolute;
+  top:50%;
+  opacity: 0.9;
+}
+#footer i{
+  padding: 4%;
+  font-size:1.5rem;
+}
+#footer i:hover{
+  cursor: pointer;
+  color: #000;
+}
+.info-list{
+  list-style-type: none;
+}
