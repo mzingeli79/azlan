@@ -1,0 +1,139 @@
+/* Global */
+body{
+  background: #3C3B3F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container-fluid{
+  padding: 7% 3% 7%;
+}
+.sticky{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+/* navbar  */
+.nav-heading {
+  font-size: 3rem;
+  letter-spacing: .5rem;
+  text-shadow: 0px 2px 3px #8a8584;
+  opacity: 0.8;
+}
+.zlan:hover{
+  color: #fff;
+}
+.zlan{
+  font-size:2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #8a8584;
+  text-shadow: 0px 2px 3px #000;
+}
+nav{
+  z-index:2;
+}
+.nav-link {
+  text-transform: capitalize;
+  letter-spacing: .5rem;
+}
+.nav-link:hover{
+  letter-spacing: .4rem;
+  border-bottom: 2px solid #fff;
+  text-transform: uppercase;
+}
+.light {
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Modal */
+
+.modal-content{
+    background: linear-gradient(to right, #605C3C, #3C3B3F);
+    color:#fff;
+}
+
+/* Hero Section */
+#hero-section {
+  background-image: url(../images/Sbu2.jpg);
+  background-size: cover;
+  height: 100vh;
+  color:#332f2e;
+  opacity: 0.8;
+  min-height: 400px;
+}
+.hero-btn{
+  margin: .5%;
+}
+.hero-content{
+  position: absolute;
+  top:50%;
+  color: #332f2e;
+  font-family: 'Roboto', sans-serif;
+}
+.image{
+  background: #3C3B3F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow:0px 2px 5px black;
+}
+.col-content{
+  position: absolute;
+  top:50%;
+  opacity: 0.9;
+}
+
+/* Bio */
+
+#bio h1{
+    background: linear-gradient(to right, #605C3C, #3C3B3F);
+    color: #EAEAEA;
+}
+#bio p{
+  text-shadow: 0px 2px 3px black;
+  text-align: justify;
+  padding: 3%;
+}
+.btn-bio{
+
+}
+
+/* Basic Info */
+
+#basic-info{
+  color: #EAEAEA;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5rem;
+}
+#basic-info h1{
+  letter-spacing: 1px;
+  text-decoration: underline;
+  text-align: center;
+}
+/* newsletter */
+#mailing-list{
+  padding: 5%;
+}
+#mailing-list input{
+  margin-left: 30%;
+  width: 40%;
+  text-align: center;
+}
+
+/* Footer */
+#footer i, p{
+  padding: 4%;
+  font-size:1.5rem;
+  color: #EAEAEA;
+}
+#footer i:hover{
+  cursor: pointer;
+  color: #000;
+}
+.info-list{
+  list-style-type: none;
+}
+
+@media (min-width) {
+
+}
